@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Shuffle</string>
+    <string name="app_tagline">Don\'t block the distraction. Break the habit.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to Shuffle</string>
+    <string name="onboarding_welcome_subtitle">Don\'t block the distraction.\nBreak the habit.</string>
+    <string name="onboarding_habit_title">Break Muscle Memory</string>
+    <string name="onboarding_habit_subtitle">Your distracting apps aren\'t blocked.\nTheir positions simply change.</string>
+    <string name="onboarding_choose_title">Choose Your Distractions</string>
+    <string name="onboarding_choose_subtitle">Select apps that distract you the most.</string>
+    <string name="onboarding_usage_title">Enable Screen-Time Access</string>
+    <string name="onboarding_usage_subtitle">Shuffle uses screen-time information only to understand which apps are taking your time and to personalize app scrambling.</string>
+    <string name="onboarding_intensity_title">Choose Your Intensity</string>
+    <string name="onboarding_intensity_subtitle">How much friction do you want?</string>
+    <string name="onboarding_launcher_title">Make Shuffle Your Launcher</string>
+    <string name="onboarding_launcher_subtitle">Set Shuffle as your default home screen to enable the full experience.</string>
+
+    <!-- Launcher -->
+    <string name="search_apps">Search apps…</string>
+    <string name="screen_time_today">Today\'s screen time</string>
+
+    <!-- Usage Permission -->
+    <string name="usage_permission_needed">Screen-time tracking is currently disabled.</string>
+    <string name="usage_permission_explain">Enable Usage Access to let Shuffle understand your app usage.</string>
+    <string name="enable_usage_access">Enable Usage Access</string>
+
+    <!-- Scrambling -->
+    <string name="scramble_gentle">Gentle</string>
+    <string name="scramble_moderate">Moderate</string>
+    <string name="scramble_strong">Strong</string>
+    <string name="scramble_custom">Custom</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="todays_screen_time">Today\'s Screen Time</string>
+    <string name="top_apps">Top Apps</string>
+    <string name="distracting_apps">Distracting Apps</string>
+    <string name="appmaze_impact">Shuffle Impact</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_scrambling">Scrambling</string>
+    <string name="settings_apps">Apps</string>
+    <string name="settings_launcher">Launcher</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_privacy">Privacy</string>
+
+    <!-- Intervention -->
+    <string name="intervention_message">You\'ve spent %s here today.</string>
+    <string name="intervention_question">Do you still want to open it?</string>
+    <string name="open_anyway">Open Anyway</string>
+    <string name="take_a_break">Take a Break</string>
+
+    <!-- Demo -->
+    <string name="demo_mode">Demo Mode</string>
+
+    <!-- General -->
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="get_started">Get Started</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_app_icon">App icon for %s</string>
+    <string name="cd_search">Search apps</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_dashboard">Dashboard</string>
+    <string name="cd_back">Navigate back</string>
+</resources>

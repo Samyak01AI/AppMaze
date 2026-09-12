@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_primary">#FF6750A4</color>
+    <color name="app_secondary">#FF625B71</color>
+    <color name="app_background_light">#FFFEFBFF</color>
+    <color name="app_background_dark">#FF1C1B1F</color>
+    <color name="ic_launcher_background">#FF6750A4</color>
+</resources>
