@@ -18,6 +18,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.appmaze.ui.screens.*
 import com.appmaze.ui.theme.ShuffleTheme
+import com.revenuecat.purchases.LogLevel
+import com.revenuecat.purchases.Purchases
+import com.revenuecat.purchases.PurchasesConfiguration
 
 class LauncherActivity : ComponentActivity() {
 
@@ -27,7 +30,10 @@ class LauncherActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         requestMaxRefreshRate()
-
+        Purchases.logLevel = LogLevel.DEBUG
+        Purchases.configure(
+            PurchasesConfiguration.Builder(this, "test_XcCgXTVNNyDIlNNyxrcDEmKInwx")
+            .build())
         setContent {
             val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
